@@ -230,24 +230,29 @@ function homeThemeFunction()
 function readability()
 {
     var text = document.getElementById("textareaReadability").value;
+    if (text === "")
+    {
+        document.getElementById("readbtyResult").innerHTML = "No Text 404";
+        return;
+    }
     text = text.trim();
-    
+
     let count_letters = 0;
     let count_words = 1;
     let count_sentences = 0
-    
+
     for (let i = 0; i < text.length; i++)
     {
         if (text.charCodeAt(i) > 64 && text.charCodeAt(i) < 91 || text.charCodeAt(i) > 96 && text.charCodeAt(i) < 123)
         {
             count_letters++;
         }
-        
+
         if (text[i] == " ")
         {
             count_words++;
         }
-        
+
         if (text[i] == "!" || text[i] == "." || text[i] == "?")
         {
             count_sentences++;
@@ -258,7 +263,7 @@ function readability()
     {
         count_words = 0;
     }
-    
+
     let L = ((count_letters /  count_words) * 100.0).toFixed(2);
     let S = ((count_sentences /  count_words) * 100.0).toFixed(2);
 
@@ -266,21 +271,21 @@ function readability()
 
     if (index <= 1)
     {
-        document.getElementById("readabilityResult").innerHTML = "Before Grade 1";
+        document.getElementById("readbtyResult").innerHTML = "Before Grade 1";
     }
     else if (index > 16)
     {
-        document.getElementById("readabilityResult").innerHTML = "Grade 16+";
+        document.getElementById("readbtyResult").innerHTML = "Grade 16+";
     }
     else
     {
-        document.getElementById("readabilityResult").innerHTML = ("Grade " + index);
+        document.getElementById("readbtyResult").innerHTML = ("Grade " + index);
     }
-    
+
 }
 
 function clearreadability()
 {
     document.getElementById("textareaReadability").value = "";
-    document.getElementById("readabilityResult").innerHTML = "";
+    document.getElementById("readbtyResult").innerHTML = "";
 }
