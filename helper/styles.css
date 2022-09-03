@@ -1,0 +1,790 @@
+/* COMMON STYLE */
+
+body
+{
+    background-color: white;
+    color: black;
+}
+
+.darkMode
+{
+    background-color: #1e1e1e;
+    color: #f5f5f5;
+}
+
+.footerlink
+{
+    color: mintcream;
+    text-decoration: none;
+    font-size: 3.5rem;
+}
+
+.footerlink:visited, .footerlink:hover, .footerlink:active
+{
+    color: mintcream;
+}
+
+
+
+/* About */
+
+.abtBodyClass
+{
+    width: 80%;
+    margin: 4rem auto;
+    margin-bottom: 10rem;
+}
+
+.abtHeadingLabel
+{
+    font-size: 2.7rem;
+}
+
+.abtImg
+{
+    float: left;
+    margin-right: 1rem;
+    max-height: 16.55rem;
+}
+
+.abtHeading2Label
+{
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+.abtCas
+{
+    width: 47%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.abtImgCats
+{
+    height: 32rem;
+    max-width: 100%;
+}
+
+.abtFooter
+{
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+}
+
+
+
+/* Cash */
+
+.cashHeadingdiv
+{
+    height: 13rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #3af174;
+    color: mintcream;
+    margin-bottom: 2rem;
+}
+
+.cashHeadingtitle
+{
+    font-size: 5rem;
+}
+
+.cashInputLabel
+{
+    font-size: 2.7rem;
+    margin-left: 9.6rem;
+    margin-bottom: 0 !important;
+}
+
+#cashChangeInput
+{
+    width: 15%;
+    height: 4rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    border-width: 0.15rem;
+    border-color: #3af174;
+    font-size: 1.7rem;
+    text-align: right;
+}
+
+.cashButton
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.2rem;
+    margin-bottom: .5rem;
+}
+
+#cashSubmitButton
+{
+    margin-right: 3.2rem;
+}
+
+.cashResultLabel
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.cashResult
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0.8rem;
+}
+
+.cashOutputLabel
+{
+    width: 8%;
+    height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 0;
+    font-size: 2rem;
+}
+
+.cashOutput
+{
+    width: 8%;
+    height: 3.5rem;
+    display: inline;
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-width: 0.15rem;
+    border-color: #3af174;
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+.cashinfo
+{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8rem;
+    margin-top: 5rem;
+    font-family: "Segoe UI", "Roboto","Helvetica Neue";
+}
+
+.cashimgmoney
+{
+    max-width: 100%;
+}
+
+.cashFooter
+{
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3af174;
+}
+
+
+
+/* Contact us */
+
+.contFormClass
+{
+    width: 80%;
+    margin: 4rem auto;
+    margin-bottom: 10rem;
+}
+
+.contHeadingLabel
+{
+    font-size: 2.7rem;
+}
+
+
+.col-auto
+{
+    margin-bottom: 1.8rem;
+}
+
+.col-form-label
+{
+    font-size: 1.25rem;
+}
+
+#contInputName
+{
+    margin-left: 2rem;
+    font-size: 1.1rem;
+    border-width: 0.15rem;
+    border-color: #1e1e1e;
+}
+
+#contInputEmail
+{
+    margin-left: 2.25rem;
+    font-size: 1.1rem;
+    border-width: 0.15rem;
+    border-color: #1e1e1e;
+}
+
+#contInputNumber1
+{
+    margin-left: 1rem;
+    width: 4.3rem;
+    font-size: 1.1rem;
+    border-width: 0.15rem;
+    border-color: #1e1e1e;
+}
+
+#contInputNumber2
+{
+    width: 8.6rem;
+    margin-left: .2rem;
+    font-size: 1.1rem;
+    border-width: 0.15rem;
+    border-color: #1e1e1e;
+}
+
+
+#contTextarea
+{
+    margin-bottom: 1rem;
+    border-width: 0.15rem;
+    border-color: #1e1e1e;
+}
+
+#contSubmitButton
+{
+    margin-bottom: 2rem;
+}
+
+.contAlert
+{
+    width: 40rem;
+    height: 6rem;
+    text-align: center;
+}
+
+.btn-close:focus, .btn-close:active, .form-control:focus
+{
+    outline: none !important;
+    box-shadow: none;
+}
+
+.contFooter
+{
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+}
+
+
+
+/* Credit */
+
+.creditHeadingdiv
+{
+    height: 13rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #C5283D;
+    color: rgb(245, 255, 250);
+    margin-bottom: 2rem;
+}
+
+.creditHeadingtitle
+{
+    font-size: 5rem;
+}
+
+.creditInputLabel
+{
+    font-size: 2.7rem;
+    margin-left: 9.6rem;
+    margin-bottom: 1rem;
+}
+
+#creditCardInput
+{
+    width: 27.5%;
+    height: 4rem;
+    margin: 1rem auto;
+    border-width: 0.15rem;
+    border-color: #C5283D;
+    padding-left: 3.5rem;
+    padding-right: 3rem;
+    font-size: 1.7rem;
+    letter-spacing: .2rem;
+}
+
+.creditButton
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+#creditSubmitButton
+{
+    margin-right: 3.2rem;
+}
+
+.creditResult
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0.8rem;
+}
+
+.creditOutput
+{
+    width: 24%;
+    height: 3.5rem;
+    display: inline;
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-width: 0.15rem;
+    border-color: #C5283D;
+    color: #C5283D;
+    font-weight: 500;
+    font-size: 1.65rem;
+}
+
+.creditDisclaimer
+{
+    margin-top: 1.5rem;
+    margin-left: 9.6rem;
+    font-size: 0.73rem;
+}
+
+.creditinfo
+{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8rem;
+    margin-top: 5rem;
+    font-family: "Segoe UI", "Roboto","Helvetica Neue";
+}
+
+.creditCardimg
+{
+    max-width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.creditFooter
+{
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #C5283D;
+}
+
+
+
+/* Index - home */
+
+.homeTopBox
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 92%;
+    margin: 0 auto;
+}
+
+.r1b1
+{
+    background-color: dodgerblue;
+    width: 95.5%;
+    height: 8vh;
+    border-color: black;
+    border-width: .2rem;
+    border-style: solid solid none solid;
+}
+
+.r1b2
+{
+    background-color: white;
+    width: 4.5%;
+    height: 8vh;
+}
+
+.r2b1
+{
+    background-color: dodgerblue;
+    width: 4.5%;
+    height: 76.5vh;
+    border-color: black;
+    border-width: .2rem;
+    border-style: none none solid solid;
+}
+
+.r2b2
+{
+    background-color: #1e1e1e;
+    width: 91%;
+    height: 76.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.r2b3
+{
+    background-color: dodgerblue;
+    width: 4.5%;
+    height: 76.5vh;
+    border-color: black;
+    border-width: .2rem;
+    border-style: solid solid none none;
+}
+
+.r3b1
+{
+    background-color: white;
+    width: 4.5%;
+    height: 8vh;
+}
+
+.r3b2
+{
+    background-color: dodgerblue;
+    width: 95.5%;
+    height: 8vh;
+    border-color: black;
+    border-width: .2rem;
+    border-style: none solid solid solid;
+}
+
+.homeBorderOFF
+{
+    border: none;
+}
+
+.homeHeading
+{
+    color: dodgerblue;
+    font-size: 7rem;
+    letter-spacing: .2rem;
+}
+
+
+.homeProgramLabel
+{
+    margin-top: 2.5rem;
+    font-size: 8.5rem;
+    letter-spacing: 2.5rem;
+    text-align: center;
+}
+
+.homeProgramsContainer
+{
+    background-color: dodgerblue;
+    height: 24rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.homeProgramsContainer > div
+{
+    background-color: #f5f5f5;
+    width: 16rem;
+    height: 88%;
+    border-radius: 0.7rem;
+    text-align: center;
+}
+
+.homeProgram1
+{
+    margin-top: 2.75rem;
+    font-size: 1.7rem;
+    background-color: #000;
+    color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+}
+
+.homeProgram1 > div
+{
+    width: 78%;
+    align-items: center;
+}
+
+.homeProgram2
+{
+    margin-top: 2.75rem;
+    font-size: 1.7rem;
+    background-color: #000;
+    color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+}
+
+.homeProgram2 > div
+{
+    width: 78%;
+    align-items: center;
+}
+
+.homeProgram3
+{
+    margin-top: 2.75rem;
+    font-size: 1.7rem;
+    background-color: #000;
+    color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+}
+
+.homeProgram3 > div
+{
+    width: 78%;
+    align-items: center;
+}
+
+.homeProgramLink
+{
+    margin-top: 2.8rem;
+}
+
+.homeProgramLink > a
+{
+    color: dodgerblue;
+    font-size: 2.45rem;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+}
+
+.homeProgramLink > a > span
+{
+    position: relative;
+    bottom: 0.3rem;
+    left: 0.2rem;
+    color: #1e1e1e;
+    font-size: 1.4rem;
+    text-decoration: underline;
+}
+
+.homeProgramLink > a:after 
+{
+    content: '';
+    position: absolute;
+    width: 82%;
+    transform: scaleX(0);
+    height: 0.15rem;
+    bottom: 0;
+    left: 0.25rem;
+    background-color: dodgerblue;
+    transform-origin: bottom right;
+    transition: transform 0.35s ease-out;
+}
+
+.homeProgramLink > a:hover:after 
+{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
+.homeProgramsContainer > div:hover
+{
+    height: 90.5%;
+    transition: height 0.5s ease-in;
+}
+
+
+.homeAddDetailsFlex
+{
+    margin: 7.5rem auto;
+    height: 10rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.homeAddDetailsFlex > div
+{
+    width: 25rem;
+    align-content: center;
+    background-color: #f9f9f9;
+    border-radius: 1rem;
+    border-style: solid;
+    border-width: 0.2rem;
+    border-color: dodgerblue;
+    text-align: center;
+}
+
+.homeDetailAbout
+{
+    margin-left: 5rem;
+}
+.homeDetailContact
+{
+    margin-right: 5rem;
+}
+
+.homeDetailAbout > div, .homeDetailContact > div
+{
+    margin-top: 1.5rem;
+    font-size: 4rem;
+}
+
+.homeDetailLink
+{
+    text-decoration: none;
+    color: #1e1e1e;
+}
+
+.homeDetailLink:visited
+{
+    color: #1e1e1e;
+}
+
+.homeDetailLink:hover, .homeDetailLink:active
+{
+    color: dodgerblue;
+}
+
+
+.homeFooter
+{
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+}
+
+
+
+/* readability */
+
+.readabilityHeadingdiv
+{
+    height: 13rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(151, 146, 227);
+    color: mintcream;
+    margin-bottom: 2rem;
+}
+
+.readabilityheading
+{
+    font-size: 5rem;
+}
+
+.readForm-label
+{
+    font-size: 2.7rem !important;
+    margin-left: 9.6rem !important;
+}
+
+#textareaReadability
+{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 0.15rem;
+    border-color: #1e1e1e;
+}
+
+.readbtyBcl
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+#readbtyButton
+{
+    margin-right: 4rem;
+}
+
+#readbtyResDiv
+{
+    display:block;
+    margin:0 auto;
+    width: 35%;
+    height: 4.5rem;
+    font-size: 3rem;
+    margin-bottom: 5rem;
+    background-color: rgb(151, 146, 227);
+    color: mintcream;
+    border-radius: .45rem;
+}
+
+.readbtyresspan
+{
+    margin-left: 1.5rem;
+}
+
+#readbtyResult
+{
+    display: inline;
+}
+
+.readbinfo
+{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8rem;
+    font-family: "Segoe UI", "Roboto","Helvetica Neue";
+}
+
+.readbinfoformula
+{
+    background-color: rgb(151, 146, 227);
+    color: mintcream;
+    height: 2.2rem;
+    display:block;
+    margin:0 auto;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.readFooter
+{
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(151, 146, 227);
+}
+

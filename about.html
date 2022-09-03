@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="/helper/styles.css" rel="stylesheet">
+        <title>About</title>
+    </head>
+    <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html" style="font-weight: 500;">CS50 Pset8</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Programs
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="readability.html">Readability</a></li>
+                  <li><a class="dropdown-item" href="cash.html">Cash</a></li>
+                  <li><a class="dropdown-item" href="credit.html">Credit</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav ms-auto">
+              <li>
+                <button class="btn btn-sm btn-outline-secondary" type="button" onclick="themeFunction()">Change Theme</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="abtBodyClass">
+          <label for="creditCardInput" class="form-label abtHeadingLabel">About us</label>
+          <hr>
+          <div>
+              <p class="">
+                  <img src="/images/about-personicon.png" alt="Person Icon" class="abtImg">
+                  Hi there! My name is Rishab. I am making this webpage as a part of the week 8 assignemnt for CS50x 2022 Introduction to Computer Science by Harvard University, Cambridge. 
+                  <br><br>
+                  <i>There are more planes in the sea than submarines in the sky</i>
+                  <br><br>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam harum velit dolore, culpa error sint facere. Unde provident magnam voluptatibus fuga error corrupti illo explicabo neque, aliquid voluptates eaque assumenda quia ab nostrum odio aut non labore. Corrupti dolore autem velit vero nisi quas, modi nam magnam dignissimos sed accusantium, quae cupiditate voluptas laudantium nihil atque. Officia tenetur hic libero labore magnam, necessitatibus incidunt consectetur neque laboriosam minus repellat nisi in earum blanditiis qui perspiciatis iusto officiis! Corrupti ipsa, nisi ab esse nihil minima obcaecati quod a asperiores similique perferendis architecto officia provident eveniet adipisci quas magni, repellat repellendus libero? 2330 06212022 .
+                </p>
+          </div>
+           
+          <label for="creditCardInput" class="form-label abtHeading2Label">My Assistants</label>
+          <hr>
+
+          <div id="carouselExampleIndicators" class="carousel slide abtCas" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/images/about-catchill.jpg" class="d-block w-100 abtImgCats" alt="..CatChill..">
+              </div>
+              <div class="carousel-item">
+                <img src="/images/about-cateat.jpg" class="d-block w-100 abtImgCats" alt="..CatEat..">
+              </div>
+              <div class="carousel-item">
+                <img src="/images/about-cathacker.png" class="d-block w-100 abtImgCats" alt="..CatHacker..">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </div>
+      
+      <footer>
+        <div class="abtFooter">
+          <a href="https://cs50.harvard.edu/x/2022/" class="form-label footerlink" target="_blank">CS50x</a>
+        </div>
+      </footer>
+
+      <!-- External JS -->
+      <script src="/helper/scripts.js"></script>
+    </body>
+</html>
+
+<!-- Home, Programs (Readability, Cash, Credit), About, Contact -->

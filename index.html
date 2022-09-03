@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="/helper/styles.css" rel="stylesheet">
+        <title>Home</title>
+    </head>
+    <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html" style="font-weight: 500; color: dodgerblue;">CS50 Pset8</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Programs
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="readability.html">Readability</a></li>
+                  <li><a class="dropdown-item" href="cash.html">Cash</a></li>
+                  <li><a class="dropdown-item" href="credit.html">Credit</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav ms-auto">
+              <li>
+                <button class="btn btn-sm btn-outline-secondary" type="button" onclick="homeThemeFunction()">Change Theme</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="homeTopBox">
+        <div class="r1b1 homeBorderSwitch"></div>
+        <div class="r1b2 homeBorderSwitch"></div>
+
+        <div class="r2b1 homeBorderSwitch"></div>
+        <div class="r2b2 homeBorderSwitch">
+          <div class="homeHeading"><em>Homepage</em></div>
+        </div>
+        <div class="r2b3 homeBorderSwitch"></div>
+        
+        <div class="r3b1 homeBorderSwitch"></div>
+        <div class="r3b2 homeBorderSwitch"></div>
+      </div>
+
+      <div>
+        <div class="homeProgramLabel">
+          <label class="">Programs</label>
+        </div>
+        <div class="homeProgramsContainer">
+
+          <div>
+            <div class="homeProgram1">
+              <div>Find out the academic grade level of any text</div>
+            </div>
+            <div class="homeProgramLink">
+              <a href="readability.html">Readability<span>&#10138;</span></a>
+            </div>
+          </div>
+
+          <div>
+            <div class="homeProgram2">
+              <div>Calculate the change for the amount owed</div>
+            </div>
+            <div class="homeProgramLink">
+              <a href="cash.html">Cash<span>&#10138;</span></a>
+            </div>
+          </div>
+
+          <div>
+            <div class="homeProgram2">
+              <div>Verify Amex, MasterCard, or Visa credit cards</div>
+            </div>
+            <div class="homeProgramLink">
+              <a href="credit.html">Credit<span>&#10138;</span></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="homeAddDetailsFlex">
+        <div class="homeDetailAbout">
+          <div><a href="about.html" class="homeDetailLink">About</a></div>
+        </div>
+        <div class="homeDetailContact">
+          <div><a href="contact.html" class="homeDetailLink">Contact</a></div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="homeFooter">
+          <a href="https://cs50.harvard.edu/x/2022/" class="form-label footerlink" target="_blank">CS50x</a>
+        </div>
+      </footer>
+      
+      <!-- External JS -->
+      <script src="/helper/scripts.js"></script>
+    </body>
+</html>
+
+<!-- Home, Programs (Readability, Cash, Credit), About, Contact -->
